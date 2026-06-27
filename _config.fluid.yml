@@ -20,10 +20,19 @@ index:
 # 页脚
 footer:
   content: '
+    <p>&copy; 2024 - 2026 塬上客</p>
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://hexo.fluid-dev.com/" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
   '
+
+# 关于页
+about:
+  avatar: /img/avatar.png
+  name: "塬上客"
+  intro: "Hi, nice to meet you!"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/QZ-CODER", tip: "GitHub" }
 
 # 本地搜索(Fluid 内置,由主题 scripts/generators/local-search.js 生成索引)
 search:

@@ -1,0 +1,30 @@
+# Fluid 主题配置(仅覆盖需要自定义的项,其余继承主题默认)
+# Docs: https://hexo.fluid-dev.com/docs/
+
+# 导航栏
+navbar:
+  blog_title: "HQZ's Blog"
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
+    - { key: '仓库', link: 'https://github.com/QZ-CODER', icon: 'iconfont icon-github-fill' }
+
+# 首页
+index:
+  slogan:
+    enable: true
+    text: 'Hi, nice to meet you!'
+
+# 页脚
+footer:
+  content: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://hexo.fluid-dev.com/" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+
+# 本地搜索(Fluid 内置,由主题 scripts/generators/local-search.js 生成索引)
+search:
+  enable: true
